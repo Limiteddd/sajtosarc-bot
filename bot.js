@@ -30,12 +30,12 @@ client.on('message', message => {
     	message.reply('MCSP,avagy MagyarPaprikásCsirke egy hazai profi csgo scene csapat.');
   	}
      client.on('message', message => {
-    if (message.content === 'béke') {
-    	message.reply('nem.');
+    if (message.content === ':eggplant:') {
+    	message.reply('A FAP elkezdődött! GLHF!');
   	}
      client.on('message', message => {
-    if (message.content === 'helló') {
-    	message.reply('Csá.');
+    if (message.content === ':ok_hand:') {
+    	message.reply('Elélveztél,gratuklálok!');
   	}
 });
 
